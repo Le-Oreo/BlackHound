@@ -97,16 +97,19 @@ set "THEME=crimson"     ::  crimson  |  amber  |  cyan
 
 ## How `R n` works
 
-BLACKHOUND is a **catalogue + launcher** — it never downloads or runs a third-party
-tool on its own. `R n` prints the repo and the exact steps:
+`R n` runs the tool **inside BLACKHOUND** — no browser, no leaving the console:
 
-```bat
-git clone <repo>
-cd <folder>            ::  read the README
-py -m venv .venv && .venv\Scripts\pip install -r requirements.txt
-```
+1. clones the repo into `tools\<id>` (first time only)
+2. installs its dependencies into a private per-tool venv (Python) — cached, so
+   the next run is instant
+3. asks for arguments, then runs it right there and drops you back at the menu
 
-The full tool list lives at the bottom of `blackhound.bat` (lines starting with `:::`).
+Needs **git** and **Python** on PATH (check with `D`). Auto-run works best for
+Python-CLI tools; a few repos won't expose an entry point BLACKHOUND can detect —
+their files are left in `tools\<id>` for you.
+
+> `R n` **downloads and executes third-party code from GitHub.** Only run tools
+> you trust. The full tool list is embedded at the bottom of `blackhound.bat`.
 
 ---
 
