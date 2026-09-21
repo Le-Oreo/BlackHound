@@ -15,7 +15,7 @@
 ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝
 ```
 
-# 🐺 BLACKHOUND
+#  BLACKHOUND
 
 **One-file OSINT hunting rig** — 2717 open-source recon tools, 24 lanes, nothing installed until *you* call one.
 
