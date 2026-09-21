@@ -17,9 +17,9 @@
 
 # 🐺 BLACKHOUND
 
-**One-file OSINT hunting rig** — 2711 open-source recon tools, 24 lanes, nothing installed until *you* call one.
+**One-file OSINT hunting rig** — 2717 open-source recon tools, 24 lanes, nothing installed until *you* call one.
 
-![tools](https://img.shields.io/badge/tools-2711-b31217?style=for-the-badge) ![lanes](https://img.shields.io/badge/lanes-24-3a3a3a?style=for-the-badge) ![platform](https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge) ![single file](https://img.shields.io/badge/build-one%20.bat-2ea043?style=for-the-badge)
+![tools](https://img.shields.io/badge/tools-2717-b31217?style=for-the-badge) ![lanes](https://img.shields.io/badge/lanes-24-3a3a3a?style=for-the-badge) ![platform](https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge) ![single file](https://img.shields.io/badge/build-one%20.bat-2ea043?style=for-the-badge)
 
 <sub>crafted by <b>Oreo</b></sub>
 
@@ -64,7 +64,7 @@ set "THEME=crimson"     ::  crimson  |  amber  |  cyan
 
 ## Lanes
 
-2711 tools across 24 lanes. Top hitters: **firecrawl**, **sherlock**, **worldmonitor**, **ImHex**, **sniffnet**, **gods-eye-view**.
+2717 tools across 24 lanes. Top hitters: **Yandex-Face-Search**, **FaceCheck-ID**, **PimEyes**, **Lenso-AI**, **Google-Images**, **TinEye**.
 
 | # | lane | tools |
 |:-:|:-----|:-----:|
@@ -75,7 +75,7 @@ set "THEME=crimson"     ::  crimson  |  amber  |  cyan
 | `05` | Network | 208 |
 | `06` | IP / Geo | 183 |
 | `07` | Social Media | 139 |
-| `08` | Metadata | 134 |
+| `08` | Metadata | 136 |
 | `09` | Email | 121 |
 | `10` | Phone | 119 |
 | `11` | Threat Intel | 116 |
@@ -89,8 +89,8 @@ set "THEME=crimson"     ::  crimson  |  amber  |  cyan
 | `19` | Dark Web | 34 |
 | `20` | Wireless | 23 |
 | `21` | Breach | 22 |
-| `22` | Crypto | 8 |
-| `23` | People ID | 8 |
+| `22` | People ID | 12 |
+| `23` | Crypto | 8 |
 | `24` | Corporate | 5 |
 
 ---
@@ -99,14 +99,16 @@ set "THEME=crimson"     ::  crimson  |  amber  |  cyan
 
 `R n` runs the tool **inside BLACKHOUND** — no browser, no leaving the console:
 
-1. clones the repo into `tools\<id>` (first time only)
-2. installs its dependencies into a private per-tool venv (Python) — cached, so
-   the next run is instant
-3. asks for arguments, then runs it right there and drops you back at the menu
+1. clones the repo into `tools\<id>` (full output shown)
+2. installs its deps — Python venv, or `npm install` / `go build` / `cargo`
+3. asks for arguments — type `?` for the tool's help, `r` to read its README,
+   or Enter to just run it
+4. runs it right there, then **deletes the whole thing** so nothing piles up
 
-Needs **git** and **Python** on PATH (check with `D`). Auto-run works best for
-Python-CLI tools; a few repos won't expose an entry point BLACKHOUND can detect —
-their files are left in `tools\<id>` for you.
+Because it cleans up after every run, each run re-downloads and re-installs.
+Needs **git** + **Python** on PATH (Node/Go/Rust tools also need node/go/cargo —
+check with `D`). If it can't work out how to run a repo, it lists the files and
+lets you pick one.
 
 > `R n` **downloads and executes third-party code from GitHub.** Only run tools
 > you trust. The full tool list is embedded at the bottom of `blackhound.bat`.
