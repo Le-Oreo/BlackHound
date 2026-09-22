@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="crest.png" alt="BLACKHOUND crest" width="240">
+
 ```
   ██████╗ ██╗      █████╗  ██████╗██╗  ██╗
   ██╔══██╗██║     ██╔══██╗██╔════╝██║ ██╔╝
@@ -15,7 +17,7 @@
 ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝
 ```
 
-# 🐺 BLACKHOUND
+# BLACKHOUND
 
 **A one-file OSINT hunting rig.** 2717 open-source recon tools across 24 lanes — clone, install, and run any of them right inside the console. Nothing is downloaded until *you* call it.
 
