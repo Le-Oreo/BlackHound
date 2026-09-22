@@ -179,7 +179,7 @@ BLACKHOUND is for **authorised** security research, CTFs, and investigating targ
 
 ## 📄 License
 
-**MIT** — see [`LICENSE`]((https://github.com/Le-Oreo/BlackHound/blob/main/License)). Free to use, fork, and share; keep the credit; no warranty.
+**MIT** — see [`LICENSE`](https://github.com/Le-Oreo/BlackHound/blob/main/License). Free to use, fork, and share; keep the credit; no warranty.
 
 BLACKHOUND is a **launcher** — it does not include or redistribute the tools it lists. Each tool is cloned from its own public GitHub repository and belongs to its author under its own license.
 
