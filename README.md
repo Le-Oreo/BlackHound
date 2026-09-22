@@ -1,8 +1,13 @@
 <div align="center">
 
-<img src="crest_red.png" alt="BLACKHOUND crest" width="200">
-
-<img src="wordmark.png" alt="BLACKHOUND" width="520">
+```
+██████╗ ██╗      █████╗  ██████╗██╗  ██╗██╗  ██╗ ██████╗ ██╗   ██╗███╗   ██╗██████╗
+██╔══██╗██║     ██╔══██╗██╔════╝██║ ██╔╝██║  ██║██╔═══██╗██║   ██║████╗  ██║██╔══██╗
+██████╔╝██║     ███████║██║     █████╔╝ ███████║██║   ██║██║   ██║██╔██╗ ██║██║  ██║
+██╔══██╗██║     ██╔══██║██║     ██╔═██╗ ██╔══██║██║   ██║██║   ██║██║╚██╗██║██║  ██║
+██████╔╝███████╗██║  ██║╚██████╗██║  ██╗██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║██████╔╝
+╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝
+```
 
 **A one-file OSINT hunting rig.** 2717 open-source recon tools across 24 lanes — clone, install, and run any of them right inside the console. Nothing is downloaded until *you* call it.
 
