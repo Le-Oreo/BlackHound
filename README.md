@@ -2,6 +2,8 @@
 
 <img src="crest_white.png" alt="BLACKHOUND crest" width="200">
 
+<br>
+
 <img src="wordmark.png" alt="BLACKHOUND" width="480">
 
 
@@ -181,4 +183,4 @@ BLACKHOUND is for **authorised** security research, CTFs, and investigating targ
 
 BLACKHOUND is a **launcher** — it does not include or redistribute the tools it lists. Each tool is cloned from its own public GitHub repository and belongs to its author under its own license.
 
-<div align="center"><sub><b>BLACKHOUND</b> · by Oreo</sub></div>
+<div align="center"><sub><b>BLACKHOUND</b> · by Oreo</sub><
