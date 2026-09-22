@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="crest.png" alt="BLACKHOUND crest" width="240">
+<img src="crest_red.png" alt="BLACKHOUND crest" width="240">
 
 ```
   ██████╗ ██╗      █████╗  ██████╗██╗  ██╗
